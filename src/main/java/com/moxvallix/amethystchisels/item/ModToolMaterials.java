@@ -4,13 +4,12 @@ import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.tag.ItemTags;
 import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-  AMETHYST(3, 1561, 8.0F, 3.0F, 10, () -> Ingredient.ofItems(new ItemConvertible[]{Items.AMETHYST_SHARD}));
+  AMETHYST(3, 250, 8.0F, 3.0F, 10, () -> Ingredient.ofItems(new ItemConvertible[]{Items.AMETHYST_SHARD}));
 
   private final int miningLevel;
   private final int itemDurability;

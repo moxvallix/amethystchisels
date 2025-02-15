@@ -2,6 +2,6 @@
   "replace": false,
   "values": [
     "#amethystchisels:chisel_silk_touch_mineable",
-    "minecraft:budding_amethyst"
+    "#c:budding_blocks"
   ]
 }

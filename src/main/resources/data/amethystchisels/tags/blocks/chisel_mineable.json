@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:amethyst_cluster",
+    "#c:clusters",
     "minecraft:amethyst_block"
   ]
 }
